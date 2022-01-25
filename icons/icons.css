@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.box{
+
+    background: rgb(84,48,1);
+    background: linear-gradient(90deg, rgba(84,48,1,1) 0%, rgba(62,31,0,1) 100%);
+}
+
+
+.box_inner{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.item{
+    text-align: center;
+
+}
+
+.number{
+    color: white;
+    font-size: 70px;
+    padding-top: 15px;
+}
+
+.text{
+    color: #f6ae5a;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.line{
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+i.fa{
+    font-size: 50px;
+    color: #f6ae5a;
+
+}
